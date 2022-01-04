@@ -20,8 +20,51 @@ img {
   width: 1170px;
   margin: 0 auto;
 }
-.clearfix::before {
+.clearfix::after {
   content: "";
   display: block;
   clear: both;
 }
+
+/* header-section start here */
+.header-section {
+  background-color: black;
+  height: 50px;
+}
+.header {
+}
+.header__logo {
+  float: left;
+  width: 30%;
+}
+.header__logo a img {
+  width: 140px;
+  margin-top: -30px;
+}
+.header__menu {
+  float: right;
+  width: 70%;
+}
+.header__menu ul {
+  text-align: right;
+}
+.header__menu ul li {
+  display: inline-block;
+  margin-right: -25px;
+}
+.header__menu ul li a {
+  display: inline-block;
+  margin-right: 20px;
+  line-height: 30px;
+  border-left: 1px solid white;
+  padding: 10px 20px;
+  color: white;
+  font-size: 18px;
+}
+.header__menu ul li:last-child a {
+  border-right: 1px solid white;
+}
+.header__menu ul li a:hover {
+  background-color: red;
+}
+/* header-section end here */
