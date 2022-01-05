@@ -31,8 +31,7 @@ img {
   background-color: black;
   height: 50px;
 }
-.header {
-}
+
 .header__logo {
   float: left;
   width: 30%;
@@ -128,8 +127,6 @@ img {
 .service-section {
   margin-top: 100px;
 }
-.service {
-}
 .service__single {
   float: left;
   width: 31.33%;
@@ -164,8 +161,6 @@ img {
 .blog-section {
   margin-top: 100px;
 }
-.blog {
-}
 .blog__content {
   float: left;
   width: 65%;
@@ -187,18 +182,48 @@ img {
 }
 
 .blog__notice h2 {
-  width: 250px;
-  margin: 10px auto;
+  text-align: center;
+  text-transform: Capitalize;
 }
 .blog__notice ul {
   text-align: center;
 }
 .blog__notice ul li {
-  list-style-type: none;
-  padding: 10px 0px;
-  border: 1px solid gray;
-  width: 250px;
-  margin: 10px auto;
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
 }
 
 /* blog-section end here--------- */
+/* footer-section start here -----*/
+.footer-section {
+  background-color: black;
+}
+.footer__content {
+  float: left;
+  width: 50%;
+  padding-top: 20px;
+}
+.footer__content p {
+  color: white;
+}
+.footer__fa {
+  float: right;
+  width: 50%;
+}
+.footer__fa ul {
+  text-align: right;
+}
+.footer__fa ul li {
+  display: inline-block;
+}
+.footer__fa ul li a {
+  color: white;
+  display: block;
+  padding: 15px 10px;
+  font-size: 20px;
+}
+.footer__fa ul li a:hover {
+  background-color: red;
+}
+/* footer-section end here -----*/
