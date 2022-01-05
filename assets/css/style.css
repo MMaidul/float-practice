@@ -20,12 +20,12 @@ img {
   width: 1170px;
   margin: 0 auto;
 }
-.clearfix::after {
+
+.clearfixed ::after {
   content: "";
   display: block;
   clear: both;
 }
-
 /* header-section start here */
 .header-section {
   background-color: black;
@@ -109,3 +109,96 @@ img {
   font-size: 22px;
 }
 /* banner-section end here */
+/* about-section start here */
+.about-section {
+  margin-top: 20px;
+}
+.about {
+  text-align: center;
+}
+.about h1 {
+}
+.about p {
+  width: 700px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+/* about-section end here */
+/* service-section start here */
+.service-section {
+  margin-top: 100px;
+}
+.service {
+}
+.service__single {
+  float: left;
+  width: 31.33%;
+  border: 2px solid #ddd;
+  padding: 20px;
+  margin-right: 2%;
+  border-radius: 5px;
+  text-align: center;
+}
+.service__single:last-child {
+  margin-right: 0;
+}
+.service span {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-size: 40px;
+  border-radius: 10px 0 10px 0;
+}
+.service h4 {
+  font-size: 20px;
+  text-transform: capitalize;
+  padding: 14px 0;
+}
+.service P {
+  font-size: 18px;
+}
+/* service-section end here */
+
+/* blog-section start here--------- */
+.blog-section {
+  margin-top: 100px;
+}
+.blog {
+}
+.blog__content {
+  float: left;
+  width: 65%;
+  margin-right: 5%;
+}
+.blog__notice {
+  float: left;
+  width: 30%;
+}
+
+.blog__content img {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px 0px 10px 0px;
+}
+.blog__content p {
+  padding-top: 50px;
+}
+
+.blog__notice h2 {
+  width: 250px;
+  margin: 10px auto;
+}
+.blog__notice ul {
+  text-align: center;
+}
+.blog__notice ul li {
+  list-style-type: none;
+  padding: 10px 0px;
+  border: 1px solid gray;
+  width: 250px;
+  margin: 10px auto;
+}
+
+/* blog-section end here--------- */
